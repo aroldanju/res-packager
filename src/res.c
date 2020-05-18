@@ -248,7 +248,7 @@ int res_create(RES* res, const char* filename, const char* path)  {
 
     currentOffset = sizeof(struct _res_header);
 
-    char files[512][16];
+    char files[512][256];
     uint32_t currentFile = 0;
 
     // Lee el nombre de los ficheros

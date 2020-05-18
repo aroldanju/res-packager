@@ -32,7 +32,8 @@ struct _res_header {
 struct _res_fat_entry {
     uint32_t    offset;
     uint32_t    length;
-    char        filename[16];
+    //char        filename[16];
+    char        filename[256];
 };
 
 struct _res_fat {
